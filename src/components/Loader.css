@@ -1,0 +1,30 @@
+
+.hypnotic {
+   width: 75.6px;
+   height: 50.8px;
+   display: grid;
+   background: radial-gradient(farthest-side at bottom,#0000 calc(100% - 8.8px),#ff2a00 calc(100% - 7px) 96%,#0000) 0 0,
+          radial-gradient(farthest-side at top   ,#0000 calc(100% - 8.8px),#ff2a00 calc(100% - 7px) 96%,#0000) 100% 100%;
+   background-size: calc(50% + 3.5px) 50%;
+   background-repeat: no-repeat;
+   animation: hypnotic-avjjp3 0.8999999999999999s infinite linear;
+}
+
+.hypnotic:before,
+.hypnotic:after {
+   content: "";
+   grid-area: 1/1;
+   background: inherit;
+   animation: inherit;
+   animation-duration: 1.2s;
+}
+
+.hypnotic:after {
+   --s: -1;
+}
+
+@keyframes hypnotic-avjjp3 {
+   100% {
+      transform: rotate(calc(var(--s,1)*1turn));
+   }
+}

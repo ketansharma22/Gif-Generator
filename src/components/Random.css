@@ -1,0 +1,32 @@
+.randomwala{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(68deg, #D9AFD9 0%, #97D9E1 100%);
+    width: 55vw;
+    margin: auto;
+    
+    
+}
+
+
+button{
+    margin-top: 15px ;
+    width: 40vw;
+    margin-bottom: 15px;
+    background-image: radial-gradient(circle, #3a2764 0%, #000000 100%);
+    font: bold;
+    color: white;
+    
+
+}
+
+
+
+.container{
+    overflow-x: hidden;
+    margin:auto;
+    padding-top: 35px;
+}
